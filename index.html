@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="cookie-container">
+            <img src="css/images/mamont.png" alt="Cookie" id="cookie">
+        </div>
+        <p id="count">0</p>
+        <div id="click-values">
+            <p id="click-value">Click Value: 1</p>
+            <p id="auto-click-value">Auto-Clicks per Second: 0</p>
+        </div>
+        <div id="mammoth-container"></div>
+        <div id="falling-mammoth-container"></div>
+        <div id="score-buttons">
+            <button data-score="100">100</button>
+            <button data-score="500">500</button>
+            <button data-score="1000">1000</button>
+            <button data-score="5000">5000</button>
+            <button data-score="10000">10000</button>
+        </div>
+        <div id="upgrade-buttons">
+            <button id="upgrade-btn">Upgrade (Стоимость: <span id="upgrade-cost">10</span> mamontov)</button>
+            <button id="progreT-btn">ProgreT (Стоимость: <span id="progreT-cost">1000</span> mamontov)</button>
+            <button id="hapnuT-btn">HapnuT (Стоимость: <span id="hapnuT-cost">5000</span> mamontov)</button>
+            <button id="chuvstvuET-btn">ChuvstvuET (Стоимость: <span id="chuvstvuET-cost">500</span> mamontov)</button>
+            <button id="Cto_NE_VeriL-btn">Cto_NE_VeriL (Стоимость: <span id="Cto_NE_VeriL-cost">322</span> mamontov)</button>
+        </div>
+        <div id="auto-clicks-container">
+            Автоклики в секунду: <span id="auto-clicks-per-second">0</span>
+        </div>
+        <div id="alert-container">
+            <div id="alert-box">
+                <p>Недостаточно мамонтов!</p>
+            </div>
+        </div>
+        <div id="congratulations-container"></div>
+    </div>
+    <div id="language-switcher">
+        <button id="language-btn">English</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
